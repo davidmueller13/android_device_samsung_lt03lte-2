@@ -14,6 +14,11 @@
 # limitations under the License.
 #
 
+# TWRP
+PRODUCT_COPY_FILES += \
+    device/samsung/lt03lte/rootdir/etc/init.recovery.qcom.rc:root/init.recovery.qcom.rc7 \
+    device/samsung/lt03lte/twrp.fstab:recovery/root/etc/twrp.fstab
+
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Get non-open-source specific aspects
