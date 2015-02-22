@@ -141,6 +141,8 @@ char * camera_fixup_setparams(struct camera_device * device, const char * settin
     android::CameraParameters params;
     params.unflatten(android::String8(settings));
 
+    params.set("zsl", "off");
+
 #ifdef LOG_PARAMETERS
     ALOGV("%s: original parameters:", __FUNCTION__);
     params.dump();
