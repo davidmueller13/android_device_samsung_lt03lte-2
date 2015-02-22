@@ -3,7 +3,6 @@ persist.audio.fluence.speaker=true
 persist.audio.fluence.voicecall=true
 persist.audio.fluence.voicerec=false
 ro.qc.sdk.audio.fluencetype=fluence
-use.voice.path.for.pcm.voip=true
 use.dedicated.device.for.voip=true
 
 # Display

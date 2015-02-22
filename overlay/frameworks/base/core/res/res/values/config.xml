@@ -156,15 +156,15 @@
     <bool name="skip_restoring_network_selection">true</bool>
 
     <!-- Is the notification LED intrusive? Used to decide if there should be a disable option -->
-    <bool name="config_intrusiveNotificationLed">true</bool>
+    <!--bool name="config_intrusiveNotificationLed">true</bool-->
 
     <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
-    <bool name="config_intrusiveBatteryLed">true</bool>
+    <!--bool name="config_intrusiveBatteryLed">true</bool-->
 
     <!-- Does the battery LED support multiple colors? Used to decide if the user can change the colors -->
-    <bool name="config_multiColorBatteryLed">false</bool>
+    <!--bool name="config_multiColorBatteryLed">false</bool-->
 
-<!-- Vibrator pattern for feedback about a long screen/key press -->
+    <!-- Vibrator pattern for feedback about a long screen/key press -->
     <integer-array name="config_longPressVibePattern">
         <item>0</item>
         <item>1</item>
@@ -245,10 +245,10 @@
     <bool name="config_enableTranslucentDecor">true</bool>
 
     <!-- Boolean to enable stylus gestures -->
-    <bool name="config_stylusGestures">true</bool>
+    <!--bool name="config_stylusGestures">true</bool-->
 
     <bool name="config_hotswapCapable">true</bool>
 
     <!-- Custom hardware button brightness -->
-    <bool name="config_button_brightness_support">true</bool>
+    <!--bool name="config_button_brightness_support">true</bool-->
 </resources>
