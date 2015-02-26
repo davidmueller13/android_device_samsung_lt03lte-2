@@ -90,9 +90,9 @@ WIFI_DRIVER_FW_PATH_AP      := "/system/etc/wifi/bcmdhd_apsta.bin"
 TARGET_OTA_ASSERT_DEVICE := lt03lte,lt03ltexx
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_msm
-TARGET_LIBINIT_DEFINES_FILE := $(LOCAL_PATH)/init/init_lt03lte.c
-TARGET_UNIFIED_DEVICE := true
+#TARGET_INIT_VENDOR_LIB := libinit_msm
+#TARGET_LIBINIT_DEFINES_FILE := $(LOCAL_PATH)/init/init_lt03lte.c
+#TARGET_UNIFIED_DEVICE := true
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 11534336
