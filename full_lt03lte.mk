@@ -33,7 +33,7 @@ $(call inherit-product, vendor/omni/config/gsm.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := omni_lt03lte
+PRODUCT_NAME := full_lt03lte
 PRODUCT_DEVICE := lt03lte
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
